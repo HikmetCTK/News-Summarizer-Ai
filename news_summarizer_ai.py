@@ -16,7 +16,7 @@ def news_infos(url):
  
     headlines= soup.find_all('div', class_='col-12 col-lg-4 d-xl-flex d-lg-flex')
 
-    for headline in headlines[:5]:
+    for headline in headlines[:5]  #You can set how many news you want to see (limit is 21) 
         news = {}
         news['headline'] = headline.text.strip()
         news['link'] = headline.find('a')['href']
