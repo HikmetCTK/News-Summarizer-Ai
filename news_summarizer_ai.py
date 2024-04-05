@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import google.generativeai as genai
-import pandas as pd
 from gtts import gTTS
 import io
 import pygame.mixer
