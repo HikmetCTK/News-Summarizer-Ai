@@ -71,7 +71,7 @@ def read_text(text):   #text to speech
     while pygame.mixer.music.get_busy():
         continue
 
-url = 'https://www.dunya.com/son-dakika-haberleri'
+url = 'URL OF  THE NEWS SİTE'
 
 new_news = news_infos(url)
 inputs=[news['content'] for news in new_news]
